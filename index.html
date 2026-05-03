@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity 8</title>
+        <script>
+            function myFunction() {
+                var name = "Shan";
+                alert("Hi " + name + ", I am an alert box.");
+            }
+        </script>
+    </head>
+
+    <body style="margin:0; font-family:Arial, sans-serif; background:#eef5ff; display:flex; justify-content:center; align-items:center; height:100vh;">
+
+        <div style="
+            background:white;
+            padding:40px;
+            border-radius:12px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.1);
+            text-align:center;
+            width:300px;
+        ">
+            <h2 style="color:#1e3a8a; margin-bottom:20px;">
+                JavaScript Alert
+            </h2>
+
+            <button 
+                onclick="myFunction()"
+                style="
+                    background:#2563eb;
+                    color:white;
+                    border:none;
+                    padding:12px 20px;
+                    font-size:16px;
+                    border-radius:8px;
+                    cursor:pointer;
+                    transition:0.3s;
+                "
+                onmouseover="this.style.background='#1e40af'"
+                onmouseout="this.style.background='#2563eb'"
+            >
+                Click Here!
+            </button>
+        </div>
+
+    </body>
+</html>
